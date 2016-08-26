@@ -5,8 +5,19 @@
 
 
     <Button
+        android:text="bind"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:id="@+id/aidl_1_btn"/>
+        android:layout_height="60dp"
+        android:id="@+id/bind_service"/>
+    <Button
+        android:text="hello"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/hello"/>
+    <Button
+        android:text="unbind"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/unbind_service"/>
 
 </LinearLayout>
